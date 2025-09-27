@@ -1,7 +1,7 @@
 // Menu data
 const menus = [
   { id: "page2", title: "Soups / Salads / Hot Bites", img: "menu2.jpg", desc: "Light starters and appetizers" },
-  { id: "page3", title: "Egg & Chicken Corner", img: "/menu3.jpg", desc: "Chicken, egg-based meals" },
+  { id: "page3", title: "Egg & Chicken Corner", img: "menu3.jpg", desc: "Chicken, egg-based meals" },
   { id: "page4", title: "Fish & Pork", img: "menu4.jpg", desc: "Seafood & pork specials" },
   { id: "page5", title: "Beef & Mutton", img: "menu5.jpg", desc: "Tender beef and mutton dishes" },
   { id: "page6", title: "Prawns / Cuttlefish / Crab", img: "menu6.jpg", desc: "Seafood delicacies" },
@@ -150,4 +150,5 @@ viewer.addEventListener("click", e => {
    INIT
 ------------------------- */
 renderGallery();
+
 
