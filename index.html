@@ -1,0 +1,89 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>NISALAKETHA — Menu</title>
+
+  <!-- Fonts -->
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&family=Playfair+Display:wght@700&display=swap" rel="stylesheet">
+
+  <!-- Styles -->
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <!-- Header -->
+  <header class="site-header">
+    <div class="container header-inner">
+      <h1 class="logo">NISALAKETHA</h1>
+      <div class="header-actions">
+        <a class="call-btn" href="tel:+94112345678">Call: +94 11 234 5678</a>
+        <button id="hamburger" class="hamburger" aria-label="Open menu" aria-expanded="false" aria-controls="sideMenu">
+          <span></span><span></span><span></span>
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <!-- Sidebar Filter -->
+  <nav id="sideMenu" class="side-menu" aria-hidden="true">
+    <div class="side-inner">
+      <button id="closeMenu" class="close-x" aria-label="Close">✕</button>
+      <h2>Filter Menus</h2>
+      <input id="filterInput" placeholder="Search..." />
+
+      <ul class="menu-list" id="filterList">
+        <li><button class="filter-btn active" data-filter="all">All Menus</button></li>
+        <li><button class="filter-btn" data-filter="page2">Soups / Salads / Hot Bites</button></li>
+        <li><button class="filter-btn" data-filter="page3">Egg & Chicken Corner</button></li>
+        <li><button class="filter-btn" data-filter="page4">Fish & Pork</button></li>
+        <li><button class="filter-btn" data-filter="page5">Beef & Mutton</button></li>
+        <li><button class="filter-btn" data-filter="page6">Prawns / Cuttlefish / Crab</button></li>
+        <li><button class="filter-btn" data-filter="page7">Chopsuey & Rice</button></li>
+        <li><button class="filter-btn" data-filter="page8">Kottu / Noodles</button></li>
+        <li><button class="filter-btn" data-filter="page9">Chopsuey Rice / Noodles</button></li>
+        <li><button class="filter-btn" data-filter="page10">Desserts</button></li>
+        <li><button class="filter-btn" data-filter="page11">Beverages</button></li>
+      </ul>
+    </div>
+  </nav>
+
+  <!-- Main -->
+  <main class="container main-content">
+    <div class="controls">
+      <span id="resultsCount">Showing: All Menus</span>
+      <button id="showAll" class="ghost">Show all</button>
+    </div>
+
+    <section id="gallery" class="gallery-grid"></section>
+  </main>
+
+  <!-- Modal Viewer -->
+  <div id="viewer" class="viewer" aria-hidden="true">
+    <div class="viewer-body">
+      <button id="viewerClose" class="viewer-close">✕</button>
+      <h3 id="viewerTitle"></h3>
+      <img id="viewerImg" alt="Menu page" />
+      <div class="viewer-controls">
+        <button id="prevBtn" class="ghost">‹ Prev</button>
+        <button id="nextBtn" class="ghost">Next ›</button>
+      </div>
+    </div>
+  </div>
+
+  <!-- Footer -->
+  <footer class="site-footer">
+    <div class="container footer-inner">
+      <p>No 12, Main Road, Colombo • Sri Lanka | Open 10:00 — 23:00</p>
+      <p>
+        <a href="#">Instagram</a> ·
+        <a href="#">Facebook</a> ·
+        <a href="tel:+94112345678">+94 11 234 5678</a>
+      </p>
+    </div>
+  </footer>
+
+  <!-- Script -->
+  <script src="script.js"></script>
+</body>
+</html>
