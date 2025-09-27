@@ -1,15 +1,15 @@
 // Menu data
 const menus = [
-  { id: "page2", title: "Soups / Salads / Hot Bites", img: "images/menu2.jpg", desc: "Light starters and appetizers" },
-  { id: "page3", title: "Egg & Chicken Corner", img: "images/menu3.jpg", desc: "Chicken, egg-based meals" },
-  { id: "page4", title: "Fish & Pork", img: "images/menu4.jpg", desc: "Seafood & pork specials" },
-  { id: "page5", title: "Beef & Mutton", img: "images/menu5.jpg", desc: "Tender beef and mutton dishes" },
-  { id: "page6", title: "Prawns / Cuttlefish / Crab", img: "images/menu6.jpg", desc: "Seafood delicacies" },
-  { id: "page7", title: "Chopsuey & Rice", img: "images/menu7.jpg", desc: "Chinese-inspired dishes" },
-  { id: "page8", title: "Kottu / Noodles", img: "images/menu8.jpg", desc: "Sri Lankan kottu and noodles" },
-  { id: "page9", title: "Chopsuey Rice / Noodles", img: "images/menu9.jpg", desc: "Fusion rice and noodles" },
-  { id: "page10", title: "Desserts", img: "images/menu10.jpg", desc: "Sweet treats" },
-  { id: "page11", title: "Beverages", img: "images/menu11.jpg", desc: "Drinks and refreshments" }
+  { id: "page2", title: "Soups / Salads / Hot Bites", img: "menu2.jpg", desc: "Light starters and appetizers" },
+  { id: "page3", title: "Egg & Chicken Corner", img: "/menu3.jpg", desc: "Chicken, egg-based meals" },
+  { id: "page4", title: "Fish & Pork", img: "menu4.jpg", desc: "Seafood & pork specials" },
+  { id: "page5", title: "Beef & Mutton", img: "menu5.jpg", desc: "Tender beef and mutton dishes" },
+  { id: "page6", title: "Prawns / Cuttlefish / Crab", img: "menu6.jpg", desc: "Seafood delicacies" },
+  { id: "page7", title: "Chopsuey & Rice", img: "menu7.jpg", desc: "Chinese-inspired dishes" },
+  { id: "page8", title: "Kottu / Noodles", img: "menu8.jpg", desc: "Sri Lankan kottu and noodles" },
+  { id: "page9", title: "Chopsuey Rice / Noodles", img: "menu9.jpg", desc: "Fusion rice and noodles" },
+  { id: "page10", title: "Desserts", img: "menu10.jpg", desc: "Sweet treats" },
+  { id: "page11", title: "Beverages", img: "menu11.jpg", desc: "Drinks and refreshments" }
 ];
 
 // DOM Elements
@@ -150,3 +150,4 @@ viewer.addEventListener("click", e => {
    INIT
 ------------------------- */
 renderGallery();
+
